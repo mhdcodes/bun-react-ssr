@@ -1,0 +1,21 @@
+{
+	"name": "bun-twitter",
+	"module": "src/index.tsx",
+	"type": "module",
+	"scripts": {
+		"start": "bun src/index.tsx",
+		"db": "bun src/db.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/react": "^18.3.5",
+		"@types/react-dom": "^18.3.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"react": "^19.0.0-rc-206df66e-20240912",
+		"react-dom": "^19.0.0-rc-206df66e-20240912"
+	}
+}
