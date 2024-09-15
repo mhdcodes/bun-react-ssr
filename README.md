@@ -1,5 +1,7 @@
 # Bun 10K Tweets
 
+This project sets up a server that utilizes clustering for multi-core processing, serving a React application that displays tweets from an SQLite database.
+
 ## Setup and Installation
 
 ### Setting up Bun
